@@ -1,0 +1,10 @@
+@media screen and (min-width: 75em) {
+    html {
+      font-size: 1.5em;
+    }
+  }
+
+body{
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+}

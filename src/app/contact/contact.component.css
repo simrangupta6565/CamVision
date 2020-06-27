@@ -1,0 +1,108 @@
+.wrapper{
+  margin-right: auto;
+  margin-left: auto;
+   /*Simran;)*/
+}
+.fullBody{
+  height: max-content;
+    
+  background-position: top center;
+  background-repeat: no-repeat;
+                    
+  background-size: cover;
+  position: relative;
+  margin: 15vh 0 20vh;
+}
+
+
+
+.Text{
+    text-align: left;
+    position: relative;
+    transform: translate(0%, 0%);
+}
+/* 
+h1 { color: white; font-family: 'Bitter', serif; font-size: 90px; font-weight: 500; line-height: 54px; margin-top: 0 0 54px; } */
+
+h1{
+  font-size: 4vh;
+  margin: 3vh 0  ;
+}
+h2{
+  margin: 8vh 0 5vh;
+}
+h1.Contact{
+  color: rgb(245, 240, 240);
+    
+  font-size: 40px; 
+  font-weight: 500;
+   line-height: 60px; 
+  margin: 8px 30px 0px; 
+  padding: 50px 20px;
+
+}
+ul{
+  color: rgb(245, 240, 240);
+   
+  font-size: 18px; 
+  font-weight: 200;
+   line-height: 50px; 
+  margin: 0px 30px 40px; 
+  padding-left: 20px;
+}
+
+.fa {
+  padding-top: -20px;
+  padding-left: 50px;
+  padding-bottom: 60px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  color: white;
+}
+.fa-instagram {
+  color: white;
+}
+.fa-twitter {
+  color: white;
+}
+.box1{
+  background: rgba(245, 247, 245, 0.9);
+  margin-top: 30px;
+  margin-bottom: 70px ;
+  height: auto;
+  box-shadow: 5px 5px 5px 5px #293747;
+
+
+}
+
+.box2{
+  background: linear-gradient(to bottom,#293747, #4056A1 100%);
+  box-shadow: 2px 2px 2px 2px #293747;
+margin-left: 20px;
+margin-bottom: 12%;
+  position: relative;
+  top: 20px;
+  
+  bottom: 20px;
+  height: auto;
+  
+}
+.box3{
+  position: relative;
+  top: 20px;
+
+  margin: 10px 10px 40px 20px;
+  height: auto;
+}
+
+.mat-form-field{
+  width: 100%;
+}

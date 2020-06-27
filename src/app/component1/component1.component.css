@@ -1,0 +1,72 @@
+.log{
+    background: linear-gradient(to bottom right, #cc00ff 25%, #0099ff 100%);
+    background-size: cover;
+background-repeat: no-repeat;
+height: auto;
+font-family: 'Numans', sans-serif;
+}
+.img-fluid{
+    height: auto;
+    width: auto;
+    max-height: 70px;
+    max-width: 250px;
+  }
+  .logo-image{
+      padding-left: 55px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+  }
+
+.container{
+    height: 100%;
+    align-content: center;
+    }
+    
+    .card{
+    height: 450px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    width: 400px;
+    background-color: rgba(255, 255, 255) !important;
+    }
+    
+
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+
+    }
+    
+
+    
+    .remember{
+    color: rgb(92, 89, 89);
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: rgb(40, 122, 228);
+    
+    }
+    
+    .links{
+    color: rgb(53, 52, 52);
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }

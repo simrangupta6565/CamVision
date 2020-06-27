@@ -1,0 +1,155 @@
+<div class="example-container" [class.example-is-mobile]="mobileQuery.matches" >
+    <mat-toolbar color="light" class="example-toolbar">
+        <a class="navbar-brand" [routerLink] = "'Home'" data-toggle="collapse" data-target="#basicExampleNav" >
+            <div class="logo-image">
+                <img src="assets\Logo (2).png" alt ="Bootstrappin" class="img-fluid" >
+            </div>
+</a>
+<button class="mat-button" mat-icon-button (click)="snav.toggle()" ><mat-icon color="primary">menu</mat-icon></button>
+    </mat-toolbar>
+  
+    <mat-sidenav-container class="example-sidenav-container"
+                           [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
+
+  
+      <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'"
+      [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+      <mat-selection-list  [multiple]="false">
+        
+        <mat-list-option >Dashboard</mat-list-option>
+        <mat-list-option >Profile</mat-list-option>
+        <mat-list-option >Meeting</mat-list-option>
+        <mat-list-option >Webiner</mat-list-option>
+        <mat-list-option >Recordings</mat-list-option>
+        <mat-list-option >Setting</mat-list-option>
+      </mat-selection-list>
+</mat-sidenav>
+
+      <mat-sidenav-content>
+        <div class="box1 " >
+            <div  class="container">
+              <div class="row">
+               <div class="col-lg-4 col-xs-12 col-sm-4" id="smbax">
+                 <div class="container">
+                     <div class= "profile-image">
+                         <img src="assets\avatar.png" alt ="Bootstrappin" style="height: 300px; width: 300px;">
+                         <h3 class="feature">Edit</h3> 
+                     </div>   
+                 </div>
+             </div>
+                   <div class="col-lg-8 col-xs-12 col-sm-8" id="smbax">
+                       <div class="container">
+                    
+                           <h2 style="margin-top: 70px;">Jeremy Rose</h2>
+                            <h4>Software Developer</h4>
+                            <h2>Rating</h2>
+                            <h2>Account No: 234578</h2>
+                            <h4>Email: Dummy6765@gmail.com</h4>
+                       </div>
+                       
+                   </div>
+                   
+                 </div> 
+           </div> 
+       </div>
+
+       <div class="box1 " >
+        <div  class="container">
+          <div class="row">
+           <div class="col-lg-4 col-xs-12 col-sm-4" style="margin-top: 40px;">
+               <h2>Analytics</h2>
+            <mat-divider></mat-divider>
+             <div class="container">
+             <div class="screen" style="padding: 20px;">
+                <ul>
+                    <li>Location: N/A</li>
+                    <li>Location: N/A</li>
+                    <li>Location: N/A</li>
+                    <li>Location: N/A</li>
+                </ul>
+
+             </div>
+             </div>
+         </div>
+               <div class="col-lg-8 col-xs-12 col-sm-8">
+                   <div>
+                <h2>Personal Meeting ID</h2>
+                <mat-divider></mat-divider>
+                
+                 <div class="container">
+                    
+                 <div class="screen"  style="padding: 20px;">
+                    
+                    <ul>
+                        <li>5654-9898-7656</li>
+                        <li>hdgbb-jjc hd-xnxnhujn-jmmm</li>
+                        <li>Use this id for instant meeting</li>
+                    </ul>
+    
+                 </div>
+                 </div>
+
+                </div>
+
+                <div>
+                    <h2>Personal Meeting ID</h2>
+                    <mat-divider></mat-divider>
+                     <div class="container">
+                     <div class="screen" style="padding: 20px;">
+                        <ul>
+                            <li>5654-9898-7656</li>
+                            <li>hdgbb-jjc hd-xnxnhujn-jmmm</li>
+                            <li>Use this id for instant meeting</li>
+                        </ul>
+        
+                     </div>
+                     </div>
+    
+                    </div>
+
+
+               </div>
+               
+             </div> 
+       </div> 
+   </div>
+
+   <div class="box1 " >
+    <div  class="container-fluid">
+      <div class="row">
+       <div class="col-lg-4 col-xs-12 col-sm-4" id="smbax">
+         <div class="container">
+         <div class="screen">
+             <div class="logo-image">
+                 <img src="assets\Chat.png" alt ="Bootstrappin" class="img-fluid" >
+             </div>  
+             <h3 class="feature">Chat Enable</h3>  
+         <p class= feature>
+           Exchange messages using Camvision. Create your own chat room for two or more people and stay connected.
+         </p>
+         <div class="center">
+             <button type="button" class="btn btn-link btn-lg">Learn more</button>
+           </div>
+         </div>
+         </div>
+     </div>
+           <div class="col-lg-8 col-xs-12 col-sm-8" id="smbax">
+               <div class="container-fluid">
+               <div>
+                   <h3>Data Sharing</h3>
+                   <p>
+                       Share audio , video or image securely using Camvision in your least time.hhhhhhhhhhhhhhhebbb sssssssssssss hhhhhhhhhhhh seeeeeee hhhhhhhhh
+                   </p>
+               </div>
+               </div>
+           </div>
+           
+         </div> 
+   </div> 
+</div>
+
+
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
+<!--  -->

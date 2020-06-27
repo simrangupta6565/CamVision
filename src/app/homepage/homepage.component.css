@@ -1,0 +1,205 @@
+
+.carousel{
+  margin-top: 10vw;
+}
+h1 { 
+  color: rgb(247, 242, 242); 
+  font-family: 'Bitter', sans-serif; 
+  font-size: 4vw;
+}
+  
+
+/* image Slider */
+
+img {
+  width: 100%;
+  height: auto;
+}
+/* image Slider */
+
+/* feature div*/
+
+.box1{
+  background-color: rgb(244, 246, 248);
+  padding-top: 1vw;
+  padding-bottom: 10vw;
+  
+
+}
+
+h1.solution{
+  color: rgb(82, 78, 78);
+  text-align: center;
+  font-size: 7vh; 
+  font-weight: 500;
+  line-height: 8vh;
+ margin-top: 10vh;
+ margin-bottom: 10vh;
+ 
+
+}
+.smbox{
+  margin: 2vh;
+}
+.blue{
+  color: rgb(17, 113, 202);
+  background-color: rgb(244, 246, 248);
+}
+
+.img-fluid{
+ width: 20vh;
+ height: auto;
+  max-height: auto;
+  
+  position: relative;
+  left: 50%;
+  padding-top: 15vh;
+  margin-bottom: -15vh;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+h3.feature{
+  color: rgb(245, 240, 240);
+   font-size: 3.5vh; 
+  font-weight: 350;
+   line-height: 4vh; 
+  text-align: center;
+  margin: 3vh;
+  
+}
+
+p.feature{
+  color: rgb(245, 240, 240);
+  font-size: 2.2vh; 
+ font-weight: 300;
+  line-height: 2.7vh; 
+ text-align: center;
+ 
+}
+.btn{
+  color: aliceblue;
+
+}
+.center {
+  margin-top: 3vh;
+  text-align: center;
+  margin: 0 auto;
+
+}
+h4{
+  font-size: 4vh;
+  font-weight: 600;
+  color: rgb(17, 113, 202);
+}
+
+
+.screen{
+  border-radius: 25px;
+  background: linear-gradient(to bottom,#ee7605, rgb(253, 154, 42) 100%);
+  padding: 2vw;
+  margin: 1vw;
+  
+}
+
+
+
+
+
+/* feature div */
+
+/* screen format */
+
+.lappy
+{
+    background-image: url("src\assets\Screenshot (198).png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
+}
+.lappytext{
+    text-align: center;
+    position: relative;
+    transform: translate(0%, 50%);
+}
+
+/* screen format */
+
+/* benefits */
+
+h3.benefits{
+  color: rgb(63, 60, 60);
+   font-size: 23px; 
+  font-weight: 400;
+   line-height: 50px; 
+  text-align: center;
+  margin-top: 2vh;
+}
+
+p.benefits{
+  color: rgb(100, 95, 95);
+  font-size: 18px; 
+ font-weight: 300;
+  line-height: 25px; 
+ text-align: center;
+ padding: 0px 10px 30px 10px;
+}
+
+.box2{
+
+  margin: 15px; 
+}
+
+/* benefits */
+
+/* table */
+h1.comparison{
+  color: rgb(82, 78, 78);
+  text-align: center;
+  font-size: 6vh; 
+  font-weight: 500;
+  line-height: 8vh;
+
+}
+.img-fluid-hd{
+  height: auto;
+  width: auto;
+  max-height: 30px;
+  max-width: 250px;
+}
+
+.comparison{
+  color: rgb(82, 78, 78);
+  text-align: center; 
+ font-size: 50px; 
+ font-weight: 700;
+  line-height: 65px; 
+ margin: 8px 30px 0px; 
+ padding: 50px 20px;
+}
+table{
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom:60px;
+  border-width: medium;
+}
+td{
+  text-align: center;
+}
+
+.hd{
+  font-size: medium;
+  text-align: center;
+  color: #044fa5;
+}
+
+.blue1{
+  color: rgb(17, 113, 202);
+  background-color: rgb(255, 255, 255);  
+}
+
+/* table */
