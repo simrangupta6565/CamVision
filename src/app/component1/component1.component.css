@@ -1,72 +1,121 @@
-.log{
-    background: linear-gradient(to bottom right, #cc00ff 25%, #0099ff 100%);
-    background-size: cover;
-background-repeat: no-repeat;
-height: auto;
-font-family: 'Numans', sans-serif;
-}
-.img-fluid{
+
+.top-head{
+ /* Green background with 30% opacity */
+     background-color: rgb(38, 2, 104);
+     
+     overflow: hidden;
+   }
+  
+   .container {
+	display: flex; /* or inline-flex */
+  }
+   .img-fluid{
     height: auto;
     width: auto;
-    max-height: 70px;
+    max-height: 140px;
     max-width: 250px;
+  
   }
-  .logo-image{
-      padding-left: 55px;
-      padding-top: 30px;
-      padding-bottom: 20px;
+  
+h1{
+    
+    margin: 0.5em 0 0.2em 0;
+	font-weight: 500;
+	font-family: 'Titillium Web', sans-serif;
+	/* position: relative;   */
+	font-size: 3em;
+	line-height: 1em;
+	/* padding: 15px 15px 15px 15%; */
+	color: #fcfcfc;
+	/* box-shadow: 
+		inset 0 0 0 1px rgba(53,86,129, 0.4), 
+		inset 0 0 5px rgba(53,86,129, 0.5),
+		inset -285px 0 35px white;
+	border-radius: 0 10px 0 10px; */
+	
+}
+.screen{
+	
+	background: linear-gradient(to bottom,#ee7605, rgb(253, 154, 42) 100%);
+	padding: 2vw;
+	margin: 0 0 10vw 0 ;
+	
   }
 
-.container{
-    height: 100%;
-    align-content: center;
-    }
-    
-    .card{
-    height: 450px;
-    margin-top: 150px;
-    margin-bottom: 200px;
-    width: 400px;
-    background-color: rgba(255, 255, 255) !important;
-    }
-    
+  .middle-box{
+	/* background: linear-gradient(to bottom,#e9e7e6, rgb(241, 239, 236) 100%); */
+	border: #ee7605;
+	border-style: solid;
+	padding: 1vw;
+	margin: 0 0 10vw 0 ;
 
-    .input-group-prepend span{
-    width: 50px;
-    background-color: #FFC312;
-    color: black;
+  }
 
-    }
-    
 
-    
-    .remember{
-    color: rgb(92, 89, 89);
-    }
-    
-    .remember input
-    {
-    width: 20px;
-    height: 20px;
-    margin-left: 15px;
-    margin-right: 5px;
-    }
-    
-    .login_btn{
-    color: black;
-    background-color: #FFC312;
-    width: 100px;
-    }
-    
-    .login_btn:hover{
-    color: rgb(40, 122, 228);
-    
-    }
-    
-    .links{
-    color: rgb(53, 52, 52);
-    }
-    
-    .links a{
-    margin-left: 4px;
-    }
+  .blue{
+	font-size: 0.5em;
+	line-height: 0.6em;
+	background-color: rgb(38, 2, 104);
+color: rgb(244, 246, 248);
+  }
+
+  h1.solution{
+	  color: rgb(43, 40, 40);
+	  font-family: 'Titillium Web', sans-serif;
+	  font-size: 6vh; 
+	 font-weight: 550;
+	  line-height: 7vh; 
+	 text-align: center;
+	 margin: 0 0 10vh 0;
+	 padding-top: 15vh;
+  }
+
+   
+   h3.feature{
+	 color: rgb(245, 240, 240);
+	  font-size: 3.5vh; 
+	 font-weight: 350;
+	  line-height: 4vh; 
+	 text-align: center;
+	 margin: 2vh;
+	
+	 
+   }
+  
+   p.name{
+	color: rgb(245, 240, 240);
+		font-size: 2.2vh; 
+   font-weight: 400;
+	line-height: 2.5vh; 
+   text-align: center;
+   padding-bottom: 10vh;  
+   }
+
+   p.feature{
+	 color: rgb(160, 154, 154);
+	 font-size: 2.2vh; 
+	font-weight: 400;
+	 line-height: 2.5vh; 
+	text-align: left;
+} 
+
+.img-fluid-1{
+
+	 height: auto;
+	 width: auto;
+	 
+	 max-width: 20vh;
+   
+   
+	 position: relative;
+	 left: 50%;
+	 padding-top: 30vh;
+	 margin-bottom: -20vh;
+	 -ms-transform: translate(-50%, -50%);
+	 transform: translate(-50%, -50%);
+   
+   }
+  .page{
+
+	background-color: rgb(3, 3, 110)  ;
+  }
