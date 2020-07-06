@@ -31,6 +31,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatDividerModule, MatDivider} from '@angular/material/divider';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -66,8 +67,9 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
      MatListModule,
      MatMenuModule,
      MatDividerModule,
-     MatSnackBarModule
-    
+     MatSnackBarModule,
+     NgbModule,
+     
   ],
 
   entryComponents:[

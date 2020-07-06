@@ -30,40 +30,27 @@
   </div>
 
  
-  <div style="background-color: rgb(243, 243, 243)">
-<mdb-carousel class="carousel slide carousel-fade"  [animation]="'fade'">
-  <mdb-carousel-item>
-    <div class="view w-100 h-80">
-      <img class="d-block w-100 " src="assets\maxresdefault.jpg" alt="First slide">
-      <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-    </div>
-    <div class="carousel-caption">
-      <h1 class="h1-responsive" style="color: rgb(70, 69, 69);"></h1>
-      
-    </div>
-  </mdb-carousel-item>
-  <mdb-carousel-item>
-    <div class="view w-100">
-      <img class="d-block w-100" src="assets\carousel-banner.jpg" alt="Second slide">
-      <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-    </div>
-    <div class="carousel-caption">
-      <h1 class="h1-responsive">Made for Collaboration</h1>
-  
-    </div>
-  </mdb-carousel-item>
-  <!-- <mdb-carousel-item>
-    <div class="view w-100">
-      <img class="d-block w-100" src="assets\image10.jpg" alt="Third slide">
-      <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-    </div>
-    <div class="carousel-caption">
-      <h1 class="h1-responsive">Global Connectivity</h1>
-      
-    </div>
-  </mdb-carousel-item> -->
-</mdb-carousel>
-</div>
+  <ngb-carousel >
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src ="assets\carousel-banner.jpg" alt="Random first slide" style="width: 100%;">
+      </div>
+      <div class="carousel-caption">
+        <h3>Introduced for the first time.</h3>
+        <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src="assets\maxresdefault.jpg" alt="Random second slide" style="width: 100%;">
+      </div>
+      <div class="carousel-caption">
+        <h3>Made For Collaboration</h3>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  -->     </div>
+    </ng-template>
+    
+  </ngb-carousel>
 <!-- main body -->
 <div class="container-fluid" style="background-color: rgb(243, 243, 243)">
   <h1 class= "solution">Welcome to DAV Post Graduate College Varansi</h1>
