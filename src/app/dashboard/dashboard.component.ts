@@ -10,7 +10,7 @@ import {MediaMatcher} from '@angular/cdk/layout';
 
 
 export class DashboardComponent implements OnInit {
-  typesOfShoes: string[] = ['Boots', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers'];
+  // typesOfShoes: string[] = ['Boots', 'Clogs', 'Loafers', 'Moccasins', 'Sneakers'];
   mobileQuery: MediaQueryList;
 
   private _mobileQueryListener: () => void;

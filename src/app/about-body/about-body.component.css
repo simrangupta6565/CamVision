@@ -1,6 +1,6 @@
 .about
 {
-    background-image: url("C:\Users\DELL\Downloads\anguler\MyProjects\vision\src\assets\aboutus.jpg");
+    /* background-image: url("C:\Users\DELL\Downloads\anguler\MyProjects\vision\src\assets\aboutus.jpg"); */
   height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,10 +34,6 @@ h1 { color: white; font-family: Noto Sans, sans-serif; font-size: 8vh; font-weig
 
 
 p { color: white; font-family: Arial , sans-serif; font-size: 4vh; line-height:4.5vh; margin: 0 0 6vh; }
-
-
-
-p.authorspan { color: white; font-family: 'Helvetica Neue', sans-serif; font-style: italic; font-weight: normal; letter-spacing: normal; text-transform: none; }
 
 p.cotentView{
   color:black; font-family: Georgia, serif; font-size: 3vh; line-height: 5vh; margin: 0 0 28px;
